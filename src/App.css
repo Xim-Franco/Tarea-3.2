@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+  padding: 20px;
+}
+
+h1 {
+  color: #1e90ff;
+}
+
+form {
+  margin: 20px 0;
+}
+
+.input-ciudad {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #1e90ff;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.boton-buscar {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.boton-buscar:hover {
+  background-color: #1c86ee;
+}
+
+.mensaje-error {
+  color: red;
+  font-weight: bold;
+}
+
+.datos-clima {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #1e90ff;
+  border-radius: 8px;
+  background-color: #f0ffff;
+  display: inline-block;
+}
+
+.datos-clima h2 {
+  color: #1e90ff;
+}
